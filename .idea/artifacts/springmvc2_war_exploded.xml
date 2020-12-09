@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springmvc2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springmvc2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springmvc2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springmvc2" />
+          <element id="library" level="application_server_libraries" name="Tomcat 9" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring" />
+          <element id="library" level="project" name="Spring MVC" />
+          <element id="library" level="project" name="classmate-0.8.0" />
+          <element id="library" level="project" name="servlet-api" />
+          <element id="library" level="project" name="org.apache.servicemix.specs.jaxb-api-2.1-2.9.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
